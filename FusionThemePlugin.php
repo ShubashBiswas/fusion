@@ -158,7 +158,7 @@ class FusionThemePlugin extends ThemePlugin
         $this->modifyStyle('stylesheet', ['addLess' => ['styles/remove-borders.less']]);
 
         // Load primary stylesheet
-        $this->addStyle('stylesheet', 'styles/output.css');
+        $this->addStyle('stylesheet', 'styles/dist/output.css');
 
         // Load alpinejs for this theme
         $this->addScript('alpinejs', 'js/alpinejs@3.x.x/dist/cdn.min.js');
