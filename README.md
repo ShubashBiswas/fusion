@@ -1,1 +1,1 @@
-# fusion
+# This theme is in development mode; please do not use it for production.

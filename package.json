@@ -4,6 +4,6 @@
     "tailwindcss": "^4.0.12"
   },
   "scripts": {
-    "build:css": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/output.css --watch"
+    "build:css": "npx @tailwindcss/cli -i ./styles/src/input.css -o ./styles/dist/output.css --watch"
   }
 }
